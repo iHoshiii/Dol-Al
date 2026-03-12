@@ -1,3 +1,5 @@
+Activity 2 Questions:
+
 2.1 Students simulate round-robin and priority scheduling using sample process queues.
 
 
@@ -5,6 +7,7 @@
 
 
 2.3 Students draw diagrams showing how threads share resources within a process.
+
 
 2.4 Students list real-world applications that benefit from multithreading (e.g., web servers, GUIs).
 
