@@ -1,0 +1,21 @@
+2.1 Students simulate round-robin and priority scheduling using sample process queues.
+
+
+2.2 Students write simple programs to create child processes and terminate them.
+
+
+2.3 Students draw diagrams showing how threads share resources within a process.
+
+2.4 Students list real-world applications that benefit from multithreading (e.g., web servers, GUIs).
+
+
+2.5 Students implement a simple program using thread pools and fork-join in Python or Java.
+
+
+2.6 Students use system tools (Process Explorer in Windows, htop in Linux) to observe thread representation.
+
+
+2.7 Students calculate turnaround time, waiting time, and CPU utilization for sample process sets under different algorithms.
+
+
+2.8 Students simulate real-time task scheduling using sample task sets with deadlines.
