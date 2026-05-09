@@ -1,0 +1,53 @@
+Domain: Indoor Plant Health (Expanded)
+Expert Logic: Plants communicate through visual cues. By analyzing leaf color, texture, and environmental context (like the season and water source), we can diagnose issues ranging from simple hydration to complex chemical sensitivities.
+
+The Expanded Rule Base (IF-THEN)
+Rule 1: IF leaves are yellow AND soil is soaking wet, THEN diagnosis is "Overwatering."
+
+Rule 2: IF leaf tips are brown and crispy AND soil is dry, THEN diagnosis is "Under-watering."
+
+Rule 3: IF leaves are pale/small AND the plant is leaning toward light, THEN diagnosis is "Insufficient Light."
+
+Rule 5: IF leaves are drooping AND soil is moist, THEN diagnosis is "Root Rot" (Requires immediate repotting).
+
+Rule 4: IF there are white, cottony clusters on stems, THEN diagnosis is "Mealybug Infestation."
+
+Rule 6: IF leaves have soft dark brown/black spots AND soil is wet, THEN diagnosis is "Fungal Leaf Spot."
+
+Rule 7: IF there is a sticky residue on the leaves, THEN diagnosis is "Sap-sucking Pests (Scale/Aphids)."
+
+Rule 8: IF the season is winter AND growth has stopped, THEN diagnosis is "Natural Dormancy."
+
+Rule 9: IF leaf tips are crispy AND tap water is used AND soil is moist, THEN diagnosis is "Chemical Sensitivity."
+
+Rule 10: IF leaves are yellow AND soil is not wet AND growth has stopped, THEN diagnosis is "Nitrogen Deficiency."
+
+2. Testing the Rules
+To verify the system’s logic, we test it against two sample cases.
+
+Case Sample A
+Observation: A Spider Plant has brown, crispy tips, but the soil is kept moist. The owner mentions they water it straight from the kitchen faucet.
+
+Rule Applied: Rule 9.
+
+Result: Chemical Sensitivity.
+
+Action: Switch to distilled water or let tap water sit out for 24 hours before use.
+
+Case Sample B
+Observation: A Monstera has yellowing leaves and has stopped producing new growth, but the soil feels dry to the touch, not soggy.
+
+Rule Applied: Rule 10.
+
+Result: Nitrogen Deficiency.
+
+Action: Apply a balanced liquid fertilizer during the next watering.
+
+3. Reflection on Accuracy
+Developing this expanded rule base reveals the evolution of a Symbolic AI system:
+
+Precision vs. Granularity: With 10 rules, the system is much more "intelligent." It no longer blames all brown tips on lack of water; it can now distinguish between a thirsty plant (Rule 2) and one reacting to chlorine (Rule 9).
+
+Knowledge Gaps: Even with 10 rules, the system is limited. If a plant has "Red Spider Mites" (which are too small to see), the system might fail to provide a diagnosis because it lacks a rule for microscopic pests.
+
+Logical Soundness: The system is highly accurate for distinct symptoms. However, in the real world, a plant might have "Yellow Leaves" for multiple reasons at once. To improve accuracy further, a Priority Layer would be needed to tell the user which issue is the most critical to fix first (e.g., prioritize Rule 5 over Rule 8).
